@@ -1,0 +1,44 @@
+/* css/customer-messaging-style.css */
+*{
+    color: #131313;
+    font-weight: 400;
+}
+#customer-messaging-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#customer-messaging-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#message {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#send-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#popup-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
