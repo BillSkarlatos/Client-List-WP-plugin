@@ -18,7 +18,7 @@ jQuery(document).ready(function ($) {
 
         // Show popup messages
         var popupMessages = selectedNumbers.map(function (number) {
-            return 'Sending to ' + number;
+            return 'Sending to ' + number + '\n';
         });
 
         $('#popup-message').text(popupMessages.join('\n')).show().delay(2000).fadeOut();
